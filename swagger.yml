@@ -20,7 +20,7 @@ securityDefinitions:
     authorizationUrl: https://platform.devtest.ringcentral.com/restapi/oauth/authorize
     tokenUrl: https://platform.devtest.ringcentral.com/restapi/oauth/token
     scopes:
-      basic: the basic scope
+      default: default permissions
 parameters:
   accountId:
     name: accountId
