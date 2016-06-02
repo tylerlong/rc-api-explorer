@@ -29,6 +29,7 @@ parameters:
     type: string
     description: Internal identifier of a RingCentral account or tilde (~) to indicate
       the account logged-in within the current session
+    default: "~"
   answeringRuleId:
     name: answeringRuleId
     in: path
@@ -97,6 +98,7 @@ parameters:
     type: string
     description: Internal identifier of an extension or tilde (~) to indicate the
       extension assigned to the account logged-in within the current session
+    default: "~"
   languageId:
     name: languageId
     in: path
