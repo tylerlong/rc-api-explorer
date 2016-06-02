@@ -489,7 +489,7 @@ this["Handlebars"]["templates"]["main"] = Handlebars.template({"1":function(dept
   return buffer + "    </h4>\n    </div>\n</div>\n";
 },"useData":true});
 this["Handlebars"]["templates"]["oauth2"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
-  var stack1, helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, buffer = "            <li>\n                <input checked class=\"oauth-scope\" type=\"checkbox\" data-scope=\""
+  var stack1, helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, buffer = "            <li>\n                <input class=\"oauth-scope\" type=\"checkbox\" data-scope=\""
     + escapeExpression(((helper = (helper = helpers.scope || (depth0 != null ? depth0.scope : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"scope","hash":{},"data":data}) : helper)))
     + "\" oauthtype=\""
     + escapeExpression(((helper = (helper = helpers.OAuthSchemeKey || (depth0 != null ? depth0.OAuthSchemeKey : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"OAuthSchemeKey","hash":{},"data":data}) : helper)))
