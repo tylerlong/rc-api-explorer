@@ -90,6 +90,10 @@
         $('.oauth-scope').trigger('click');
       });
 
+      $('#default_endpoint_list').livequery(function(){
+        $('#default_endpoint_list').show();
+      });
+
       function log() {
         if ('console' in window) {
           console.log.apply(console, arguments);
