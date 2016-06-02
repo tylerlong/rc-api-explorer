@@ -10,9 +10,9 @@ basePath: "/"
 schemes:
 - https
 produces:
-- https
+- application/json
 consumes:
-- https
+- application/json
 securityDefinitions:
   oauth:
     type: oauth2
