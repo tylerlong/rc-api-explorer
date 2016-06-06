@@ -21,6 +21,9 @@ securityDefinitions:
     tokenUrl: https://platform.devtest.ringcentral.com/restapi/oauth/token
     scopes:
       default: default permissions
+security:
+- oauth:
+  - default
 parameters:
   accountId:
     name: accountId
